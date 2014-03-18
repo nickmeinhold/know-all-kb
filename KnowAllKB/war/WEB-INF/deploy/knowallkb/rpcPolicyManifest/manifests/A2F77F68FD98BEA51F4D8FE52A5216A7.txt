@@ -1,0 +1,2 @@
+serviceClass: kakb.client.UsersService
+path: 2BBF04E62CF5498AF2CC29A3672CEFE7.gwt.rpc

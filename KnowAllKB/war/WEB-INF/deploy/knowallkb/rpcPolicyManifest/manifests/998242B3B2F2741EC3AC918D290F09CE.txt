@@ -1,0 +1,2 @@
+serviceClass: kakb.client.QuanceptsService
+path: 1819C789E0B3B7140B33390E093E442C.gwt.rpc

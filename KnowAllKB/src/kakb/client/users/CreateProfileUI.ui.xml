@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<g:VerticalPanel>
+		<g:VerticalPanel styleName="pageComponent">
+			<g:Label text="Welcome to KnowAll, a web app that facilitates the transfer of knowledge."/>
+		</g:VerticalPanel>
+		<g:VerticalPanel styleName="pageComponent">
+			<g:Label text="Enter your details to create an account..."/>
+		</g:VerticalPanel>
+		<g:HorizontalPanel>
+			<g:HorizontalPanel styleName="pageComponent">
+			<g:Label text="First Name" styleName="textBoxLabel"/>
+			<g:TextBox ui:field="firstNameTB"/>
+		</g:HorizontalPanel>
+			<g:HorizontalPanel styleName="pageComponent">
+			<g:Label text="Last Name" styleName="textBoxLabel"/>
+			<g:TextBox ui:field="lastNameTB"/>
+		</g:HorizontalPanel>
+		</g:HorizontalPanel>
+		<g:HorizontalPanel styleName="pageComponent">
+			<g:Button ui:field="submitBtn">Submit</g:Button>
+		</g:HorizontalPanel>
+		
+	</g:VerticalPanel>
+</ui:UiBinder> 
